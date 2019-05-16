@@ -148,7 +148,7 @@ apt update && apt upgrade
 apt install python2
 pip2 install urllib3 chardet certifi idna requests
 apt install openssl curl
-pkg install libcurl
+apt install libcurl
 mkdir webdav
 cd ~/webdav
 wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
@@ -344,8 +344,8 @@ then
 clear
 echo -e $red" Installing Weevely "
 sleep 1
-pkg update
-pkg upgrade
+apt update
+apt upgrade
 git clone https://github.com/glides/Weevely
 cd ~/
 echo -e $red" T E R I N S T A L L "
